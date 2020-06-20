@@ -55,7 +55,7 @@ def main(_):
 
   # output folders
   if FLAGS.out_name == "":
-      FLAGS.out_name = '{} - {} - {}'.format(timestamp(), FLAGS.data_dir.split('/')[-1], FLAGS.dataset) # penultimate folder of path
+      FLAGS.out_name = '{} - {}'.format(FLAGS.data_dir.split('/')[-1], FLAGS.dataset) # penultimate folder of path
 #       if FLAGS.train:
 #         FLAGS.out_name += ' - x{}.z{}.{}.y{}.b{}'.format(FLAGS.input_width, FLAGS.z_dim, FLAGS.z_dist, FLAGS.output_width, FLAGS.batch_size)
 
